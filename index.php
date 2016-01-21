@@ -12,7 +12,7 @@
 
         <h1>Unattended Toddlers in Vehicles</h1>
 
-        <p class="home-page-content">Each year, an average of 37 children die due to vehicular heat stroke. Over 100 die due to back-overs and front-overs. Others die from the vehicle accidentally being set in motion, strangulation by power windows, choking on small objects, poisoning, and more. What makes these child deaths especially tragic is that each and every one of them was preventable</p>
+        <p class="home-page-content">Each year, an average of 37 children die due to vehicular heat stroke. Over 100 die due to back-overs and front-overs. Others die from the vehicle accidentally being set in motion, strangulation by power windows, choking on small objects, poisoning, and more. What makes these child deaths especially tragic is that each and every one of them was preventable.</p>
 
         <div id="slide-area">
             <div id="owl-demo" class="owl-carousel owl-theme">
