@@ -10,15 +10,28 @@
 </script>
 
 <script>
-    $(document).ready(function() {
-
       $("#owl-demo").owlCarousel({
-            loop: true,
-            items: 3,
-            pagination: false
-      });
+       itemsCustom: [
+      [0,3]
+    ],
+     afterAction: function(el){
+       //remove class active
+       this
+       .$owlItems
+       .removeClass('active')
+
+       //add class active
+       this
+       .$owlItems //owl internal $ object containing items
+       .eq(this.currentItem + 1)
+       .addClass('active')
+
+     }
 
     });
+
+
+
 
 
 </script>
