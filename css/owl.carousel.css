@@ -69,3 +69,42 @@
   -ms-transform: translate3d(0,0,0);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+#owl-demo .owl-item > div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:4px;
+}
+#owl-demo .owl-item > div {
+  margin: 0px 2px;
+  height:100px;
+  background: #cccccc
+}
+#owl-demo .owl-item.active > div{
+  background: #6699ff
+}
+.active{
+    opacity: 0.1;
+}
