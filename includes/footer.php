@@ -13,7 +13,9 @@
     $(document).ready(function() {
 
       $("#owl-demo").owlCarousel({
-            loop: true
+            loop: true,
+            items: 3,
+            pagination: false
       });
 
     });
