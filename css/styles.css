@@ -24,25 +24,31 @@ Color Palette
 /* ------------ ‘HEADER ------------*/
 /*global styles*/
 html{
-    background-color: #787878;
-    background-image: url(../images/asfalt-dark.png);
     background-attachment: fixed;
+    background-color: rgba(120,120,120,.85);
 }
 header{
-    background-color: #327F9B;
-    background-image: url(../images/asfalt-dark.png);
-    border-bottom: 5px solid #000;
     background-attachment: fixed;
+    background-color: #327F9B;
+    border-bottom: 5px solid #000;
 }
 body{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     margin: auto;
 }
-resize{
-    height: auto;
-    width: 100%;
+html,
+header,
+nav,
+.slicknav_menu{
+    background-image: url(../images/asfalt-dark.png);
 }
 /* header styling */
+nav{
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+}
 nav li{
     align-content: center;
     display: inline-block;
@@ -147,20 +153,6 @@ nav a:hover,
     max-width: 40%;
 }
 
-h1,h2{
-    background-attachment: fixed;
-    background-color: #000;
-    border-radius: 0 32em 32em 0;
-    color: #FCB118;
-    font-family: Anton;
-    letter-spacing: .1em;
-    padding-left: 5px;
-}
-.next-page-link{
-    color: #FCB118;
-    text-decoration: underline;
-}
-
 /* ------------ Main Content ------------*/
 main{
     margin: auto;
@@ -168,66 +160,26 @@ main{
     padding: .5em 5em 3em;
 }
 h1{
-    font-size: 3em;
+    color: #fcb118;
+    font-size: 3.5em;
+}
+
+h2{
+    background-color: #000;
+    border-radius: 0 32em 32em 0;
+    color: #FCB118;
+    letter-spacing: .1em;
+    padding: .8em 1em;
+}
+h3{
+    font-size: 1.5em;
 }
 p{
     font-size: 1.25em;
 }
 a{
-    color: #c33;
+    color: #327f9b;
     text-decoration: none;
-}
-#owl-demo .item img{
-    display: block;
-    height: auto;
-    width: 100%;
-}
-.resize{
-    height: auto;
-    width: 80%;
-}
-.child_safety{
-    width: 90%;
-}
-.action_columns{
-    -moz-column-width: 300px;
-    -webkit-column-width: 300px;
-    column-width: 300px;
-    -moz-column-gap: 2em;
-    -webkit-column-gap: 2em;
-    column-gap: 2em;
-}
-.bpa_info{
-    border: 1px dotted black;
-    padding: 0 2em;
-}
-.cir_shape{
-    clear: both;
-    width: 100%;
-}
-.cir_shape img{
-    margin: 2em 1em 2em .5em;
-    -webkit-shape-outside: circle();
-    shape-outside: circle();
-    width: 50%;
-}
-.cir_shape h3{
-    color: #f63;
-    font-weight: 100;
-    padding-top: 2em;
-}
-.about_image{
-    float: left;
-    height: auto;
-    width: 50%;
-}
-.resource_img{
-    height: auto;
-    width: 100%;
-}
-.profile{
-    background-color: #e9e9e9;
-    border: 1px solid #000;
 }
 /*Image Carousel Styling*/
 #owl-demo{
@@ -239,16 +191,157 @@ a{
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
-
+.owl-theme .owl-controls .owl-buttons div{
+    position: absolute;
+}
 #owl-demo .item img{
     display: block;
     height: auto;
     width: 100%;
 }
-.owl-theme .owl-controls .owl-buttons div{
-    position: absolute;
+.resize{
+    height: auto;
+    width: 80%;
+}
+.action_btn{
+    background: #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+    padding: .5em;
+}
+.action_btn:hover{
+    box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.take_action_img{
+    margin: auto;
+    width: 100%;
+}
+/* -------------------------------- dangers ---------------------------------*/
+.danger_facts{
+    border-radius: 50px;
+    clear: both;
+    line-height: 1.75em;
+    margin: 2em auto;
+}
+.dangers_nav li{
+    background-image: url(../images/PSAsprites_.png);
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+    height: 60px;
+    list-style: none;
+    margin-left: 2em;
+    margin:.1em 1.2em;
+    padding: .8em;
+    width: 70px;
+}
+.dangers_nav a{
+    margin: -.8em;
+    padding: .7em 2.5em 2.5em;
+}
+.danger_facts li{
+    font-size: 1.15em;
+}
+.heatstroke{
+    background-position: -1px -116px;
+}
+.choking{
+    background-position: -490px -116px;
+}
+.poison{
+    background-position: -735px -116px;
+}
+.front_back{
+    background-position: -125px -116px;
+}
+.abduction{
+    background-position: -367px -116px;
+}
+.in_motion{
+    background-position: -860px -116px;
+}
+.power_windows{
+    background-position: -615px -116px;
+}
+/* -------------------------------- take action ---------------------------------*/
+.group_safety{
+    margin-bottom: 2em;
+    width: 90%;
+}
+.action_columns{
+    -moz-column-width: 350px;
+    -webkit-column-width: 350px;
+    column-width: 350px;
+    -moz-column-gap: 2em;
+    -webkit-column-gap: 2em;
+    column-gap: 2em;
+}
+/* -------------------------------- prevention ---------------------------------*/
+.prev_main h3{
+/*    border: 2px dashed;*/
+    margin-left: .5em;
+    max-width: 20em;
+    padding: .5em;
+}
+.prev_main h3{
+    background-image: url(../images/icons_vert_small.png);
+    background-repeat: no-repeat;
+    padding-left: 2.75em;
+}
+.prev_choking{
+    background-position: 0 -1050px;
+}
+.prev_front{
+    background-position: 0 -265px;
+}
+.prev_set{
+    background-position: 0 -525px;
+}
+.prev_window{
+    background-position: 0 -1312px;
+}
+/* -------------------------------- about us ---------------------------------*/
+.cir_shape{
+    clear: both;
+    font-size: 1.15em;
+    width: 100%;
+}
+.cir_shape img{
+    margin: 2em 1.5em 2em 1em;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    width: 30%;
+}
+.cir_shape h3{
+    color: #f63;
+    font-weight: 400;
+    padding-top: 2.5em;
+    margin-bottom: 0;
+}
+.cir_shape p{
+    margin-top: .25em;
+}
+.about_image{
+    float: left;
+    height: auto;
+    min-width: 300px;
+}
+.bpa_info{
+    clear: both;
+    padding-top: 2em;
+}
+/* -------------------------- resources ------------------------------*/
+.resource_img{
+    height: auto;
+    width: 100%;
+}
+.posters{
+    padding: 2em;
+}
+.posters ul{
+    font-size: 1.25em;
 }
 /* -------------------------------- Media Styles ---------------------------------*/
+
 /*tablet styles*/
 @media only screen and (max-width:850px){
     /* header styling */
@@ -259,12 +352,14 @@ a{
         text-align: center;
         width: 100%;
     }
+    .dangers_nav{
+        display: none;
+    }
     .js .slicknav_menu{
         display: block;
     }
     .slicknav_menu{
         background-color: #327F9B;
-        background-image: url(../images/asfalt-dark.png);
     }
     .slicknav_menu li{
         font-size: 1.5em;
@@ -278,11 +373,21 @@ a{
         padding-bottom: 0;
     }
     main{
-        padding: .5em 1.25em 3em;
+        padding: .5em 1.75em 3em;
     }
-    .about_image{
-        height: auto;
-        width: 80%;
+    h1{
+        font-size: 2em;
+    }
+    h2,
+    .posters h2{
+        font-size: 1em;
+    }
+    h3{
+        .9em;
+    }
+    .float_img,
+    .float_imgs{
+        display: none;
     }
 }
 
@@ -295,7 +400,7 @@ a{
 
     #home-page-main{
         margin: auto;
-        width: 80%;
+        width: 85%;
     }
     #home-page-main img{
         width: 85%;
@@ -321,25 +426,10 @@ a{
         right: -25%;
         top: 40%;
     }
-    .profile{
-        height: 30em;
-        border-radius: 3em;
-        padding: 2em;
-    }
-    .profile h3{
-        font-size: 2em;
-    }
-    .cir_shape{
-        padding-bottom: 5em;
-    }
-    .cir_shape img{
-        width: 30%;
-    }
     nav{
         background-color: #FCB118;
-        background-image: url(../images/asfalt-dark.png);
         font-family: Anton;
-        font-size: 1.6em;
+        font-size: 1.5em;
         font-weight: 400;
         margin: auto;
         margin-top: -70px;
@@ -347,6 +437,60 @@ a{
         text-align: center;
         height: 75px;
         width: 97%;
+    }
+    .main_right{
+        left: 16%;
+        margin: auto;
+        min-width: 750px;
+        position: absolute;
+    }
+    .dangers_nav{
+        left: 1%;
+        padding-top: 2em;
+        position: absolute;
+    }
+    .dangers_p{
+        font-size: 1.5em;
+        line-height: 1.6em;
+        padding: 0 4em 0 0;
+        float: left;
+        width: 30%;
+    }
+    .float_img{
+        width: 45%;
+        border-radius: 25px;
+    }
+    .float_imgs{
+        width: 75%;
+        border-radius: 25px;
+    }
+    .danger_facts{
+        padding-top: 3em;
+    }
+    .how,
+    .facts,
+    .symptoms,
+    .facts_right{
+        width: 90%;
+    }
+    .facts{
+        clear: both;
+    }
+    .float_left{
+        float: left;
+        margin-right: 2.5em;
+        width: 35%;
+    }
+    .float_right{
+        float: right;
+        width: 35%;
+        margin-left: 2.5em;
+    }
+    .main_info{
+        margin: 0 3em;
+    }
+    .about_team{
+        padding: 0 5%;
     }
 }
 
@@ -379,14 +523,6 @@ a{
         opacity: 1;
         right: -45%;
         top: 40%;
-    }
-    .profile{
-        border-radius: 3em;
-        height: 32em;
-        padding: 2em;
-    }
-    .cir_shape{
-        padding: 2em 0;
     }
 }
 
@@ -423,11 +559,9 @@ a{
         right: -45%;
         top: 40%;
     }
-    .cir_shape{
-        padding: 2em 0;
-    }
-    .profile{
-        border-radius: 3em;
-        padding: .5em;
+    .cir_shape img{
+        -moz-shape-outside: none;
+        -webkit-shape-outside: none;
+        shape-outside: none;
     }
 }

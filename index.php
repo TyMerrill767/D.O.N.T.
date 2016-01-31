@@ -31,7 +31,7 @@
 
         <p class="home-page-content">How can we avoid these tragedies? Read further to learn about the dangers and solutions to leaving a child alone in a vehicle and how you can take action to avoid repeating these unfortunate mistakes before they happen.</p>
 
-       <a href="dangers.php" class="next-page-link">Dangers of leaving your child in a vehicle &gt;&gt;</a>
+       <a href="dangers.php" class="action_btn">Dangers of leaving your child in a vehicle &gt;&gt;</a>
    </main>
 
    <footer>
