@@ -10,7 +10,7 @@ SIDEBAR - Submenu, search bar, shortlists
 
 MAIN CONTENT - Articles, search results
 
-FOOTER – Copyright
+FOOTER – BPA Information
 
 Color Palette
 
@@ -328,7 +328,19 @@ a{
     clear: both;
     padding-top: 2em;
 }
-/* -------------------------- resources ------------------------------*/
+/* -------------------------- Footer ------------------------------*/
+footer{
+    background: #327F9B;
+    background-attachment: fixed;
+    background-image: url(../images/asfalt-dark.png);
+    clear: left;
+}
+#bpa-info p{
+    font-size: 70%;
+    margin: 0;
+    text-align: center;
+}
+/* -------------------------- Resources ------------------------------*/
 .resource_img{
     height: auto;
     width: 100%;
