@@ -47,19 +47,6 @@
                       <li>strange behaviour</li>
                     </ul>
                </div>
-               <div class="symptoms">
-                    <h3>Symptoms of Heat Stroke:</h3>
-                    <ul>
-                        <li>Hot, red, and dry or moist skin.</li>
-                        <li>No sweating.</li>
-                        <li>A slow weak pulse or a rapid strong pulse.</li>
-                        <li>A throbbing headache.</li>
-                        <li>Dizziness.</li>
-                        <li>Nausea.</li>
-                        <li>Confusion.</li>
-                        <li>Acting strangely or being grouchy.</li>
-                    </ul>
-               </div>
        </div>
 
        <div class="danger_facts">
@@ -170,9 +157,8 @@
                 </ul>
            </div>
        </div>
-
 <a href="prevention.php" class="action_btn">How to prevent these dangers >></a>
-           <a href="#top" class="action_btn">Back to Top</a>
+  <a href="#top" class="action_btn">Back to Top</a>
    </main>
 
    <footer>
