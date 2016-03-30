@@ -1,4 +1,4 @@
-<header role="banner">
+<header role="banner" id="banner">
     <a href="index.php"><img src="images/logo_only.png" alt="D.O.N.T. logo" id="logo"></a>
     <p id="tagline">Drivers Opposed to Neglecting Toddlers</p>
 </header>
