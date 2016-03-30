@@ -1,5 +1,4 @@
 <div id="bpa-info">
-    <hr>
     <p>BPA Information:</p>
     <p>Chapter: 03-0042</p>
     <p>Theme: Toddler Neglect in Vehicles</p>
