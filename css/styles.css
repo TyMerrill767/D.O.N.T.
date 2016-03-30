@@ -206,7 +206,7 @@ a{
     background: #ccc;
     border-radius: 5px;
     box-shadow: 2px 2px 8px rgba(0,0,0,.5);
-    float: right;
+    margin-right: 150px;
     padding: .5em;
 }
 .action_btn:hover{
@@ -215,6 +215,14 @@ a{
 .take_action_img{
     margin: auto;
     width: 100%;
+}
+.back-to-top {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    margin-bottom: 3%;
+    right: 3%;
 }
 /* -------------------------------- dangers ---------------------------------*/
 .danger_facts{
@@ -333,6 +341,7 @@ a{
 footer{
     background: #327F9B;
     background-attachment: fixed;
+    border-top: 5px solid black;
     background-image: url(../images/asfalt-dark.png);
     clear: left;
 }
