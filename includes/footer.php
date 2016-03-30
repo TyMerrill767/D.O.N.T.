@@ -23,7 +23,7 @@
 
       $("#owl-demo").owlCarousel({
 
-          slideSpeed: 8000,
+          slideSpeed: 800,
           paginationSpeed: 800,
           singleItem: true,
           autoPlay: 7000,
