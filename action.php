@@ -20,6 +20,7 @@
 
             <p>Too many tragedies happen each year that can easily be prevented if the parties involved knew proper child vehicle safety precautions. Everyone should have at the very least a basic understanding of child vehicle safety. It&rsquo;s encouraged that you inform your friends and family with children about proper child vehicle safety and inform them of the risks that surround their vehicles. Who knows, you may just save a life.</p>
        </div>
+       <a href="#banner" class="action_btn">Back to Top</a>
    </main>
 
    <footer>
