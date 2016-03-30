@@ -206,7 +206,6 @@ a{
     background: #ccc;
     border-radius: 5px;
     box-shadow: 2px 2px 8px rgba(0,0,0,.5);
-    margin-right: 150px;
     padding: .5em;
 }
 .action_btn:hover{
@@ -344,9 +343,11 @@ footer{
     border-top: 5px solid black;
     background-image: url(../images/asfalt-dark.png);
     clear: left;
+    padding: 1em;
 }
 #bpa-info p{
-    font-size: 70%;
+    color: #fff;
+    font-size: 80%;
     margin: 0;
     text-align: center;
 }
