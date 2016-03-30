@@ -158,7 +158,8 @@
            </div>
        </div>
 <a href="prevention.php" class="action_btn">How to prevent these dangers >></a>
-  <a href="#top" class="action_btn">Back to Top</a>
+  <a href="#top" class="back-to-top">
+                        <img src="images/back_to_top_icon.png"></a>
    </main>
 
    <footer>
